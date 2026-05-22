@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balerao Priyanka - Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        
+        /* Header */
+        .header {
+            background: #2b2b2b;
+            padding: 15px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { color: #fff; font-size: 18px; font-weight: bold; }
+        .logo span { font-size: 10px; color: #999; display: block; font-weight: normal; }
+        .nav-menu { display: flex; list-style: none; gap: 25px; }
+        .nav-menu a { color: #ccc; text-decoration: none; font-size: 12px; text-transform: uppercase; }
+        .nav-menu a:hover { color: #4da6ff; }
+
+        /* Hero Section */
+        .hero {
+            background: #3d3d3d;
+            padding: 60px 8%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 450px;
+        }
+        .hero-text { color: #fff; max-width: 50%; }
+        .hero-text h1 { 
+            font-size: 36px; 
+            letter-spacing: 3px; 
+            margin-bottom: 20px; 
+            font-weight: 700;
+        }
+        .hero-text p { 
+            color: #bbb; 
+            font-size: 14px; 
+            line-height: 1.8; 
+            margin-bottom: 30px; 
+        }
+        .btn {
+            background: #4da6ff;
+            color: #fff;
+            padding: 10px 25px;
+            border: none;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        .btn:hover { background: #3d8bdb; }
+        .hero-img { flex: 0 0 45%; }
+        .hero-img img { 
+            width: 100%; 
+            height: auto; 
+            max-height: 400px;
+            object-fit: cover; 
+        }
+
+        /* About Section */
+        .about {
+            background: #fff;
+            padding: 70px 8%;
+            display: flex;
+            gap: 60px;
+            align-items: flex-start;
+        }
+        .about-img { flex: 0 0 35%; }
+        .about-img img { width: 100%; border-radius: 3px; }
+        .about-text { flex: 1; }
+        .about-text h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        .about-text h2::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 45px;
+            height: 3px;
+            background: #4da6ff;
+        }
+        .about-text p {
+            color: #666;
+            font-size: 13px;
+            line-height: 1.9;
+            margin-bottom: 15px;
+        }
+
+        /* Mobile */
+        @media (max-width: 900px) {
+            .nav-menu { display: none; }
+            .hero, .about { flex-direction: column; text-align: center; }
+            .hero-text { max-width: 100%; }
+            .about-text h2::after { left: 50%; transform: translateX(-50%); }
+            .hero-img, .about-img { max-width: 300px; margin: 0 auto; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">Online Portfolio<span>just another My Blog site</span></div>
+        <ul class="nav-menu">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">SKILL</a></li>
+            <li><a href="#">TESTIMONIAL</a></li>
+            <li><a href="#">EXPERIENCE</a></li>
+            <li><a href="#">WORKS</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>BALERAO PRIYANKA</h1>
+            <p>Hi, I am a B.Tech student at N.B.K.R.I.S.T Vidyanagar with skills in Python, Java, and Web development. I seek challenging opportunities where I can fully use my skills for the success of the organization.</p>
+            <a href="mailto:priyankabaleraopriya@gmail.com" class="btn">Hire Me</a>
+        </div>
+        <div class="hero-img">
+            <img src="priyanka.jpg.jpeg" alt="Balerao Priyanka">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="priyanka.jpg.jpeg" alt="Balerao Priyanka">
+        </div>
+        <div class="about-text">
+            <h2>ABOUT ME</h2>
+            <p>I am a B.Tech student blending technical expertise with strong communication skills to solve problems and motivate teams.</p>
+            <p>Software learners use programming languages and tools to write, edit, and test code. Software developers follow the software development lifecycle (SDLC) to plan, design, build, test, and deploy software applications, ranging from websites and mobile applications to web applications and video games. In addition to creating new software, software developers improve and maintain the working order of existing software.</p>
+            <a href="resume.pdf" class="btn" download>DOWNLOAD RESUME</a>
+        </div>
+    </section>
+</body>
+</html>
