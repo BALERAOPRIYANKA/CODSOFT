@@ -3,9 +3,7 @@
 
 
 Name: BALERAO PRIYANKA  
-Company: CODTECH IT SOLUTIONS  <img width="935" height="428" alt="ANOTHEROUTPUT" src="https://github.com/user-attachments/assets/49462598-aaf9-459a-a59b-be2fecf337a5" />
-<img width="935" height="431" alt="CODSOFT OUTPUT" src="https://github.com/user-attachments/assets/5e9565e9-da65-403f-b68a-43c6514b2ea2" />
-
+Company: CODTECH IT SOLUTIONS
 Domain: Web Development  
   
 
