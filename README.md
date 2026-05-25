@@ -1,8 +1,6 @@
 <img width="935" height="431" alt="CODSOFT OUTPUT" src="https://github.com/user-attachments/assets/be52c968-3aa8-4128-8636-7af378d6decb" />
 <img width="935" height="428" alt="ANOTHEROUTPUT" src="https://github.com/user-attachments/assets/46cf67b5-a1a5-4c2f-ba93-54e792e50a0c" />
-<img width="935" height="428" alt="ANOTHEROUTPUT" src="https://github.com/user-attachments/assets/0fe4081c-382c-4af7-acb8-7873d3c5cb8f" />
-<img width="935" height="431" alt="CODSOFT OUTPUT" src="https://github.com/user-attachments/assets/8d53f24d-dd04-40e3-99cd-08bc13898ac6" />
-CODTECH - Task1
+
 
 Name: BALERAO PRIYANKA  
 Company: CODTECH IT SOLUTIONS  <img width="935" height="428" alt="ANOTHEROUTPUT" src="https://github.com/user-attachments/assets/49462598-aaf9-459a-a59b-be2fecf337a5" />
